@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BeFastBeTheBest.exe" version="1.0.0.0" publicKeyToken="d686165d0c2fb98e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BeFastBeTheBest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BeFastBeTheBest.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BeFastBeTheBest.exe" size="1042912">
+      <assemblyIdentity name="BeFastBeTheBest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>TB4yWgw9ngYvyYB3PbEY/dBUGIAJtj9vjM2YW95TWvY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="700336">
+      <assemblyIdentity name="Newtonsoft.Json" version="12.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f5ErKKB8Im4L46z7L1fwUFOKugEA+h8L8sOfGh8dqBQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BeFastBeTheBest.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-C36G9VL\Edgar" issuerKeyHash="2ef3f678ba7fea81fe49e7d47d5e0a098616f27e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kpEEhh4jV+g/LB4yqcLhedjfZhIe2+5f+eIMgtDpiQ4=</DigestValue></Reference></SignedInfo><SignatureValue>O3slirA8cphRwUvDNM/4VMI5ST5AAyiovukXHbQZ/1HP1RlaExsGFdKD0Y/gp4GLgH3a/QUASppFa8pnaUa+BVddhbzDfNi1d+6bObXi3CLL8bgTKC9waoC9IayuNZ3qwGyibtiJKwK0SqizfqsWhx8Hq0webN5ZMFzcOrVl5WA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sKzRoslJlNittmuFLv0jtwcQkdBG3dLXfwTILXi8WcCquzNztTTE5kf/KOhmCeCGuNdwLY4k2E7LdLb/4QzQ0TdhfkoJrjR6NFZc2wDnQJLnFGnQn6snw66f6x895HOg22gUy/S6uHpUsv7cR3q9L41j8hdNrQjn2aWiSwHm3j0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0e89e9d0820ce2f95feedb1e1266dfd879e1c2a9321e2c3fe857231e86049192" Description="" Url=""><as:assemblyIdentity name="BeFastBeTheBest.exe" version="1.0.0.0" publicKeyToken="d686165d0c2fb98e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-C36G9VL\Edgar</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qEbF/t3zJcXk7l5vDbe7ECgksydeUerZNJLVj1XN9LI=</DigestValue></Reference></SignedInfo><SignatureValue>TaErAI1d/Q3r3bg07iaZb1m6a5tpv9Gq91cefrwNVDsxHujJ9tvvgKt3x1RGGcMweKUGn3FRB7yaeztHqcSk504/UbnUFJj23tRzkc+fFPh8OAV0cjRmfsbo1R+m8P7B2kR7CRA8qwLjol2XxKJ14rJVKTS1WWiCCIVdTcpdyJo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sKzRoslJlNittmuFLv0jtwcQkdBG3dLXfwTILXi8WcCquzNztTTE5kf/KOhmCeCGuNdwLY4k2E7LdLb/4QzQ0TdhfkoJrjR6NFZc2wDnQJLnFGnQn6snw66f6x895HOg22gUy/S6uHpUsv7cR3q9L41j8hdNrQjn2aWiSwHm3j0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQe7QHT10Y2r9MUtOr7/hxFzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEMAMwA2AEcAOQBWAEwAXABFAGQAZwBhAHIwHhcNMjAwNTI2MjM0MjUyWhcNMjEwNTI3MDU0MjUyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEMAMwA2AEcAOQBWAEwAXABFAGQAZwBhAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALCs0aLJSZTYrbZrhS79I7cHEJHQRt3S138EyC14vFnAqrszc7U0xOZH/yjoZgnghrjXcC2OJNhOy3S2/+EM0NE3YX5KCa40ejRWXNsA50CS5xRp0J+rJ8Oun+sfPeRzoNtoFMv0urh6VLL+3Ed6vS+NY/IXTa0I59mloksB5t49AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAsCYHMqv3glCT78pfnwI+EEF5TB3E3nmpJXKpdH5PfMiH2hjSJniDLZNhbSzZHyp2HXDI0YvaVNfxy6t5ucmrFv+/Fo2VMkJaeKwYurb1NzGGN4+ks8B+VG6X7foITImAoltcigEGynIuMJvH84a5rQ8VCk9BvnU1xGlRL9eLFIs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
