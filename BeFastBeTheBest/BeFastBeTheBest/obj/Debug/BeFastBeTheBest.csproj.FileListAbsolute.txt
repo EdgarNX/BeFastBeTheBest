@@ -1,0 +1,13 @@
+C:\Users\Edgar\Desktop\BeFastBeTheBest\BeFastBeTheBest\bin\Debug\BeFastBeTheBest.exe.config
+C:\Users\Edgar\Desktop\BeFastBeTheBest\BeFastBeTheBest\bin\Debug\BeFastBeTheBest.exe
+C:\Users\Edgar\Desktop\BeFastBeTheBest\BeFastBeTheBest\bin\Debug\BeFastBeTheBest.pdb
+C:\Users\Edgar\Desktop\BeFastBeTheBest\BeFastBeTheBest\obj\Debug\BeFastBeTheBest.csprojAssemblyReference.cache
+C:\Users\Edgar\Desktop\BeFastBeTheBest\BeFastBeTheBest\obj\Debug\BeFastBeTheBest.Auth.resources
+C:\Users\Edgar\Desktop\BeFastBeTheBest\BeFastBeTheBest\obj\Debug\BeFastBeTheBest.Properties.Resources.resources
+C:\Users\Edgar\Desktop\BeFastBeTheBest\BeFastBeTheBest\obj\Debug\BeFastBeTheBest.csproj.GenerateResource.cache
+C:\Users\Edgar\Desktop\BeFastBeTheBest\BeFastBeTheBest\obj\Debug\BeFastBeTheBest.exe
+C:\Users\Edgar\Desktop\BeFastBeTheBest\BeFastBeTheBest\obj\Debug\BeFastBeTheBest.pdb
+C:\Users\Edgar\Desktop\BeFastBeTheBest\BeFastBeTheBest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Edgar\Desktop\BeFastBeTheBest\BeFastBeTheBest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Edgar\Desktop\BeFastBeTheBest\BeFastBeTheBest\obj\Debug\BeFastBeTheBest.csproj.CopyComplete
+C:\Users\Edgar\Desktop\BeFastBeTheBest\BeFastBeTheBest\obj\Debug\BeFastBeTheBest.Game.resources
