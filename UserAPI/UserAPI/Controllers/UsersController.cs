@@ -151,5 +151,21 @@ namespace UserAPI.Controllers
                 return "User was deleted successfully!";
             }
         }
+
+        [HttpDelete]
+        public string DeleteUsers(string userName)
+        {
+
+            var usersFromRepo = _userRepository.GetUsers();
+
+
+            foreach (var item in usersFromRepo) // Loop through List with foreach
+            {
+                this.DeleteUser(item.Name);
+            }
+
+            return "Good job!";
+
+        }
     }
 }

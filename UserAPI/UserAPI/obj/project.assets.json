@@ -4942,11 +4942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Edgar\\Desktop\\unu\\UserAPI\\UserAPI\\UserAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Edgar\\Desktop\\padProiect\\UserAPI\\UserAPI\\UserAPI.csproj",
       "projectName": "UserAPI",
-      "projectPath": "C:\\Users\\Edgar\\Desktop\\unu\\UserAPI\\UserAPI\\UserAPI.csproj",
+      "projectPath": "C:\\Users\\Edgar\\Desktop\\padProiect\\UserAPI\\UserAPI\\UserAPI.csproj",
       "packagesPath": "C:\\Users\\Edgar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Edgar\\Desktop\\unu\\UserAPI\\UserAPI\\obj\\",
+      "outputPath": "C:\\Users\\Edgar\\Desktop\\padProiect\\UserAPI\\UserAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Edgar\\AppData\\Roaming\\NuGet\\NuGet.Config",
