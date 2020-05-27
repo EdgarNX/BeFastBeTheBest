@@ -1,0 +1,8 @@
+.coloured {
+  background-color: lightslategray;
+  color: black;
+}
+.border {
+  border: solid 5px;
+  border-color: black;
+}
