@@ -1,0 +1,40 @@
+<div class="col-md-5 text-center">
+  <label></label>
+  <br>
+  <h3 class="h3Color" [ngStyle]="{color: subscribeTimer <= 10 ? 'red' : 'green'}"> Time remaining: {{subscribeTimer}}</h3>
+</div>
+<div class="col-md-7" [ngStyle]="{color: 'white'}">
+  <form class="text-center center-block" #form="ngForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for="q1">{{questions[0]}}</label>
+          <input type="number" id="q1" class="form-control" name="q1" ngModel>
+          <label for="q2">{{questions[1]}}</label>
+          <input type="number" id="q2" class="form-control" name="q2" ngModel>
+          <label for="q3">{{questions[2]}}</label>
+          <input type="number" id="q3" class="form-control" name="q3" ngModel>
+          <label for="q4">{{questions[3]}}</label>
+          <input type="number" id="q4" class="form-control" name="q4" ngModel>
+          <label for="q5">{{questions[4]}}</label>
+          <input type="number" id="q5" class="form-control" name="q5" ngModel>
+          <label for="q6">{{questions[5]}}</label>
+          <input type="number" id="q6" class="form-control" name="q6" ngModel>
+          <label for="q7">{{questions[6]}}</label>
+          <input type="number" id="q7" class="form-control" name="q7" ngModel>
+          <label for="q8">{{questions[7]}}</label>
+          <input type="number" id="q8" class="form-control" name="q8" ngModel>
+          <label for="q9">{{questions[8]}}</label>
+          <input type="number" id="q9" class="form-control" name="q9" ngModel>
+          <label for="q10">{{questions[9]}}</label>
+          <input type="number" id="q10" class="form-control" name="q10" ngModel>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <button type="submit" class="btn btn-success">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>

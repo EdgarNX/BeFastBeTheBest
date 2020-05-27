@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 text-center coloured border">
+      <h2>HOW TO PLAY:</h2>
+      <p>After pressing START button it is gonna be 10 mathematics questions, you have to answer in 60 seconds, if you finish earlier press Submit button, correctitude of answers is important, but speed too. Only final results are accepted!</p>
+    </div>
+    <div class="col-md-6 text-center" *ngIf="!gameStarted" [ngStyle]="{color: 'white'}">
+      <h3>Welcome, {{nickname}}!</h3>
+      <button
+        class="btn btn-primary"
+        type="button"
+        (click)="onStart()"
+      > START </button>
+    </div>
+    <div class="col-md-6 text-center" *ngIf="gameStarted">
+      <app-game (gameStarted)="onStop()"></app-game>
+    </div>
+    <div class="col-md-3 text-center coloured border">
+      <h2>HIGHSCORES:</h2>
+      <ul class="list-group">
+        <div class="row">
+          <div class="col-lg-6">
+            <li class="list-group-item list-group-item-success">Nickname</li>
+            <li class="list-group-item" *ngFor="let el of users">{{el.userName}}</li>
+          </div>
+          <div class="col-lg-6">
+            <li class="list-group-item list-group-item-danger">Score</li>
+            <li class="list-group-item" *ngFor="let el of users">{{el.points}}</li>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
